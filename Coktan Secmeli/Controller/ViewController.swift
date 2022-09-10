@@ -45,9 +45,9 @@ class ViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             self.updateUI()
         }
-        
     }
     
+    // This function get data from MODEL and update VIEW
     func updateUI() {
         questionLabel.text = quizBrain.getQuestionText()
         button1.setTitle(quizBrain.getButtonText(0), for: .normal)
