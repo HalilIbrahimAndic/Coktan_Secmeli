@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203E59CC28CCF2C4009B2011 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206070AE28CB7BE7006086BE /* Question.swift */; };
+		203E59CF28CCF2C8009B2011 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206070B228CB7BF5006086BE /* QuizBrain.swift */; };
 		2060709728CB7B7E006086BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060709628CB7B7E006086BE /* AppDelegate.swift */; };
 		2060709928CB7B7E006086BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060709828CB7B7E006086BE /* SceneDelegate.swift */; };
 		2060709B28CB7B7E006086BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060709A28CB7B7E006086BE /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 		2060709F28CB7B80006086BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206070A228CB7B80006086BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		206070A428CB7B80006086BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206070AE28CB7BE7006086BE /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		206070B228CB7BF5006086BE /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		2060709528CB7B7E006086BE /* Coktan Secmeli */ = {
 			isa = PBXGroup;
 			children = (
+				206070AB28CB7B9A006086BE /* Model */,
+				206070AC28CB7BB5006086BE /* View */,
+				206070AD28CB7BC4006086BE /* Controller */,
 				2060709628CB7B7E006086BE /* AppDelegate.swift */,
 				2060709828CB7B7E006086BE /* SceneDelegate.swift */,
-				2060709A28CB7B7E006086BE /* ViewController.swift */,
-				2060709C28CB7B7E006086BE /* Main.storyboard */,
 				2060709F28CB7B80006086BE /* Assets.xcassets */,
 				206070A128CB7B80006086BE /* LaunchScreen.storyboard */,
 				206070A428CB7B80006086BE /* Info.plist */,
 			);
 			path = "Coktan Secmeli";
+			sourceTree = "<group>";
+		};
+		206070AB28CB7B9A006086BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				206070AE28CB7BE7006086BE /* Question.swift */,
+				206070B228CB7BF5006086BE /* QuizBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		206070AC28CB7BB5006086BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2060709C28CB7B7E006086BE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		206070AD28CB7BC4006086BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2060709A28CB7B7E006086BE /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203E59CF28CCF2C8009B2011 /* QuizBrain.swift in Sources */,
+				203E59CC28CCF2C4009B2011 /* Question.swift in Sources */,
 				2060709B28CB7B7E006086BE /* ViewController.swift in Sources */,
 				2060709728CB7B7E006086BE /* AppDelegate.swift in Sources */,
 				2060709928CB7B7E006086BE /* SceneDelegate.swift in Sources */,
